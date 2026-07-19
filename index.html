@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jahanara Suchi - Academic Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --primary-color: #1a5632;
+      --bg-accent: #e8f2ed;
+      --text-main: #1c1c1c;
+      --text-muted: #555;
+      --border-color: #d0ddd6;
+      --white: #ffffff;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-main);
+      background: #f4f6f4;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: var(--white);
+      padding: 40px 48px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+      border-radius: 8px;
+    }
+
+    .profile-layout {
+      display: flex;
+      gap: 40px;
+    }
+
+    .sidebar {
+      width: 240px;
+      flex-shrink: 0;
+      text-align: center;
+    }
+
+    .avatar-placeholder {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--bg-accent), #bbf7d0);
+      margin: 0 auto 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+
+    .profile-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .profile-title {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+
+    .profile-org {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .social-links {
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      text-align: left;
+      padding-left: 20px;
+    }
+
+    .social-links a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+
+    .main-content {
+      flex: 1;
+      border-left: 1px solid var(--border-color);
+      padding-left: 40px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 16px;
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 6px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: var(--text-muted);
+      text-align: justify;
+    }
+
+    h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin: 24px 0 12px;
+    }
+
+    .interests-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .interests-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--text-main);
+    }
+
+    .bullet-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--primary-color);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-color);
+      font-size: 11px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .profile-layout {
+        flex-direction: column;
+        gap: 24px;
+      }
+      .main-content {
+        border-left: none;
+        padding-left: 0;
+      }
+      .sidebar {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="profile-layout">
+      
+      <!-- Left Sidebar Profile Panel -->
+      <aside class="sidebar">
+        <div class="avatar-placeholder">JS</div>
+        <h1 class="profile-name">Jahanara Suchi</h1>
+        <div class="profile-title">CSE Graduate</div>
+        <div class="profile-org">AIUB</div>
+        
+        <div class="social-links">
+          <a href="mailto:your.email@example.com">✉ Email</a>
+          <a href="https://github.com/jahanra02" target="_blank">💻 GitHub</a>
+          <a href="#" target="_blank">🎓 Google Scholar</a>
+          <a href="#" target="_blank">🔗 LinkedIn</a>
+        </div>
+      </aside>
+
+      <!-- Right Side Bio Content Panel -->
+      <main class="main-content">
+        <h2>About Me</h2>
+        
+        <p>I am a recent graduate from American International University-Bangladesh (AIUB) with a Bachelor's degree in Computer Science and Engineering (CSE).</p>
+
+        <p>My research focuses on Machine Learning, Artificial Intelligence, Explainable Artificial Intelligence (XAI), and Deep Learning. My published research includes a comprehensive review on AI-based Alzheimer's disease diagnosis and a study on predicting student academic success using an optimized XGBoost framework with feature engineering and model evaluation.</p>
+
+        <p>My research aims to develop reliable, interpretable, and data-driven AI systems that address real-world challenges.</p>
+
+        <h3>Research Interests</h3>
+        <ul class="interests-list">
+          <li><div class="bullet-dot"></div> Machine Learning</li>
+          <li><div class="bullet-dot"></div> Explainable AI (XAI)</li>
+          <li><div class="bullet-dot"></div> Deep Learning</li>
+          <li><div class="bullet-dot"></div> Healthcare AI</li>
+          <li><div class="bullet-dot"></div> Educational Data Mining</li>
+          <li><div class="bullet-dot"></div> Financial Fraud Detection</li>
+          <li><div class="bullet-dot"></div> Trustworthy Artificial Intelligence</li>
+        </ul>
+
+        <p style="margin-top: 20px;"><strong>Status:</strong> I am currently seeking fully funded PhD positions in Computer Science for Fall 2027.</p>
+      </main>
+
+    </div>
+
+    <footer class="footer">
+      © 2026 Jahanara Suchi.
+    </footer>
+  </div>
+
+</body>
+</html>
