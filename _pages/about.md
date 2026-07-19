@@ -1,7 +1,7 @@
 ---
-permalink: /
+layout: about
 title: "About Me"
-excerpt: "About me"
+permalink: /
 author_profile: true
 ---
 
@@ -13,12 +13,10 @@ My research aims to develop reliable, interpretable, and data-driven AI systems 
 
 ### Research Interests
 
-- Machine Learning
-- Explainable AI (XAI)
-- Deep Learning
-- Healthcare AI
-- Educational Data Mining
-- Financial Fraud Detection
-- Trustworthy Artificial Intelligence
+* **Machine Learning & Deep Learning**
+* **Explainable AI (XAI) & Trustworthy Artificial Intelligence**
+* **Healthcare AI** (Alzheimer's disease diagnosis)
+* **Educational Data Mining**
+* **Financial Fraud Detection**
 
-I am currently seeking fully funded PhD positions in Computer Science for Fall 2027.
+**Status:** I am currently seeking fully funded PhD positions in Computer Science for Fall 2027.
