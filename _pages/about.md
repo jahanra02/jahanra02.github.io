@@ -1,10 +1,12 @@
 ---
+layout: single
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+---
 ---
 
 I am a recent graduate from American International University-Bangladesh (AIUB) with a Bachelor's degree in Computer Science and Engineering (CSE).
