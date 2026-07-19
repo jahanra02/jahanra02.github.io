@@ -11,6 +11,16 @@ I am a recent graduate from American International University-Bangladesh (AIUB) 
 
 My research focuses on Machine Learning, Artificial Intelligence, Explainable Artificial Intelligence (XAI), and Deep Learning. My published research includes a comprehensive review on AI-based Alzheimer's disease diagnosis and a study on predicting student academic success using an optimized XGBoost framework with feature engineering and model evaluation.
 
-My research aims to develop reliable, interpretable, and data-driven AI systems that address real-world challenges. My research interests include Explainable AI (XAI), Healthcare AI, Educational Data Mining, Predictive Analytics, Financial Fraud Detection, and Trustworthy Artificial Intelligence.
+My research aims to develop reliable, interpretable, and data-driven AI systems that address real-world challenges.
+
+### Research Interests
+
+- Machine Learning
+- Explainable AI (XAI)
+- Deep Learning
+- Healthcare AI
+- Educational Data Mining
+- Financial Fraud Detection
+- Trustworthy Artificial Intelligence
 
 I am currently seeking fully funded PhD positions in Computer Science for Fall 2027.
