@@ -1,12 +1,8 @@
 ---
-layout: single
+layout: about
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
 ---
 
 I am a recent graduate from American International University-Bangladesh (AIUB) with a Bachelor's degree in Computer Science and Engineering (CSE).
